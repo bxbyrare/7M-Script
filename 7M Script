@@ -1,34 +1,3 @@
-
-        local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
-        
-        -- Criar uma janela usando Rayfield
-        local Window = Rayfield:CreateWindow({
-           Name = "🇧🇷 Script para 7M Members 🇧🇷",
-           LoadingTitle = "Trident Survival V4",
-           LoadingSubtitle = "por 7M Developers",
-           ConfigurationSaving = {
-              Enabled = false,
-              FolderName = "rare", -- Pasta onde será salvo
-              FileName = "7MNOTOPOOOO"
-           },
-           Discord = {
-              Enabled = true,
-              Invite = "discord.gg/pbFgpcjz6M",
-              RememberJoins = true
-           },
-           KeySystem = true,
-           KeySettings = {
-              Title = "Discord da 7M",
-              Subtitle = "Só terá a chave se estiver lá",
-              Note = "Junte-se ao servidor do Discord para obter a chave",
-              FileName = "7Mkeysecreta",
-              SaveKey = false,
-              GrabKeyFromSite = true,
-              Key = {"7MNOTOPO"} 
-           }
-        })
-HWIDtable ("https://raw.githubusercontent.com/bxbyrare/HWID-7M/main/Whitelist")
-
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
@@ -906,7 +875,4 @@ if settings.recenter then
     end)
     local MiscTab = Window:CreateTab("(Não finalizado)", rare) -- Title, Image
 
-CheckHWID()
-
-    end
 end
